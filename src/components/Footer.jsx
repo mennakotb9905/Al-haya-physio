@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container footer-container">
         <div className="footer-col brand-col">
           <a href="#" className="logo-area">
-            <img src="/assets/logo_icon.png?v=2" alt="شعار مركز الحياة" className="logo-img" />
-            <img src="/assets/logo_text_arabic.png" alt="مركز الحياة للعلاج الطبيعي" className="logo-text-img" />
+            <img src="./assets/logo_icon.png?v=2" alt="شعار مركز الحياة" className="logo-img" />
+            <img src="./assets/logo_text_arabic.png" alt="مركز الحياة للعلاج الطبيعي" className="logo-text-img" />
           </a>
           <p className="footer-desc">
             تحت إشراف الاستشاري د. عبدالله قطب حماد. ريادة في مجال العلاج الطبيعي والتأهيل الحركي باستخدام أحدث المعدات الطبية العالمية وأجود البرامج العلاجية والرياضية.

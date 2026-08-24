@@ -38,7 +38,7 @@ export default function Hero() {
         <div className="hero-visual">
           <div className="hero-card-glow"></div>
           <div className="hero-card">
-            <img src="/assets/logo_transparent.png?v=15.0" alt="مركز الحياة" className="hero-main-logo" />
+            <img src="./assets/logo_transparent.png?v=15.0" alt="مركز الحياة" className="hero-main-logo" />
             <div className="hero-card-info">
               <span className="badge">
                 <i className="fa-solid fa-circle-check"></i> مركز معتمد

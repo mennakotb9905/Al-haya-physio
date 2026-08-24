@@ -66,8 +66,8 @@ export default function Header({ activeSection }) {
       <header className={`main-header ${isScrolled ? 'scrolled' : ''}`} id="header">
         <div className="container header-container">
           <a href="#" className="logo-area">
-            <img src="/assets/logo_icon.png?v=2" alt="شعار مركز الحياة" className="logo-img" />
-            <img src="/assets/logo_text_arabic.png" alt="مركز الحياة للعلاج الطبيعي" className="logo-text-img" />
+            <img src="./assets/logo_icon.png?v=2" alt="شعار مركز الحياة" className="logo-img" />
+            <img src="./assets/logo_text_arabic.png" alt="مركز الحياة للعلاج الطبيعي" className="logo-text-img" />
           </a>
           
           {/* Desktop Navigation */}
@@ -105,8 +105,8 @@ export default function Header({ activeSection }) {
       <div className={`mobile-nav-drawer ${isDrawerOpen ? 'open' : ''}`} id="mobileDrawer">
         <div className="drawer-header">
           <a href="#" className="logo-area" onClick={closeDrawer}>
-            <img src="/assets/logo_icon.png?v=2" alt="شعار مركز الحياة" className="logo-img" />
-            <img src="/assets/logo_text_arabic.png" alt="مركز الحياة للعلاج الطبيعي" className="logo-text-img" />
+            <img src="./assets/logo_icon.png?v=2" alt="شعار مركز الحياة" className="logo-img" />
+            <img src="./assets/logo_text_arabic.png" alt="مركز الحياة للعلاج الطبيعي" className="logo-text-img" />
           </a>
           <button className="drawer-close" id="drawerClose" onClick={closeDrawer}>
             <i className="fa-solid fa-xmark"></i>

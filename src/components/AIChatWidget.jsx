@@ -133,7 +133,7 @@ export default function AIChatWidget() {
       <div className={`chat-window ${isOpen ? 'open' : ''}`} id="chatWindow">
         <div className="chat-header">
           <div className="chat-bot-profile">
-            <img src="/assets/logo_icon_square.png" alt="شعار مركز الحياة" className="bot-avatar" />
+            <img src="./assets/logo_icon_square.png" alt="شعار مركز الحياة" className="bot-avatar" />
             <div className="bot-info">
               <h4>مساعد الحياة الذكي</h4>
               <span className="bot-status">

@@ -7,7 +7,7 @@ export default function About() {
         <div className="about-image-area">
           <div className="image-frame-bg"></div>
           <div className="image-frame">
-            <img src="/assets/doctor_abdullah.jpg" alt="الاستشاري دكتور عبدالله قطب حماد" className="doctor-photo" />
+            <img src="./assets/doctor_abdullah.jpg" alt="الاستشاري دكتور عبدالله قطب حماد" className="doctor-photo" />
           </div>
           <div className="doctor-badge">
             <i className="fa-solid fa-award"></i>

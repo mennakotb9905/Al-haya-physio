@@ -59,7 +59,7 @@ export default function Equipment() {
           <div className={`tab-pane ${activeTab === 'shockwave' ? 'active' : ''}`} id="shockwave">
             <div className="eq-details">
               <div className="eq-image-box">
-                <img src="/assets/shockwave_banner.png?v=2" alt="جهاز الموجات التصادمية" className="eq-img" />
+                <img src="./assets/shockwave_banner.png?v=2" alt="جهاز الموجات التصادمية" className="eq-img" />
                 <span className="eq-badge">Shockwave Therapy</span>
               </div>
               <div className="eq-info-box">
@@ -82,7 +82,7 @@ export default function Equipment() {
             {/* Device 1: Knee CPM */}
             <div className="eq-details" style={{ marginBottom: '50px', borderBottom: '1px solid rgba(25, 49, 67, 0.08)', paddingBottom: '50px' }}>
               <div className="eq-image-box">
-                <img src="/assets/cpm_knee_banner.png?v=2" alt="جهاز تحريك مفصل الركبة CPM" className="eq-img" />
+                <img src="./assets/cpm_knee_banner.png?v=2" alt="جهاز تحريك مفصل الركبة CPM" className="eq-img" />
                 <span className="eq-badge">Knee CPM</span>
               </div>
               <div className="eq-info-box">
@@ -102,7 +102,7 @@ export default function Equipment() {
             {/* Device 2: Arm/Shoulder CPM */}
             <div className="eq-details">
               <div className="eq-image-box">
-                <img src="/assets/cpm_arm_banner.png?v=2" alt="جهاز تحريك مفصل الكتف والذراع CPM" className="eq-img" />
+                <img src="./assets/cpm_arm_banner.png?v=2" alt="جهاز تحريك مفصل الكتف والذراع CPM" className="eq-img" />
                 <span className="eq-badge">Shoulder CPM</span>
               </div>
               <div className="eq-info-box">
@@ -155,7 +155,7 @@ export default function Equipment() {
               {/* Card 1: Treadmill */}
               <div className="gym-eq-card">
                 <div className="gym-eq-img-wrapper">
-                  <img src="/assets/gym/unnamed.png" alt="جهاز السير الطبي" />
+                  <img src="./assets/gym/unnamed.png" alt="جهاز السير الطبي" />
                 </div>
                 <div className="gym-eq-content">
                   <h5>جهاز السير الطبي (Treadmill)</h5>
@@ -166,7 +166,7 @@ export default function Equipment() {
               {/* Card 2: Bike */}
               <div className="gym-eq-card">
                 <div className="gym-eq-img-wrapper">
-                  <img src="/assets/gym/upright-exercise-bike.jpg" alt="الدراجة الطبية المتخصصة" />
+                  <img src="./assets/gym/upright-exercise-bike.jpg" alt="الدراجة الطبية المتخصصة" />
                 </div>
                 <div className="gym-eq-content">
                   <h5>الدراجة الطبية (Rehab Bike)</h5>
@@ -177,7 +177,7 @@ export default function Equipment() {
               {/* Card 3: Multi Gym */}
               <div className="gym-eq-card">
                 <div className="gym-eq-img-wrapper">
-                  <img src="/assets/gym/1847e322-8b4a-4b26-9dc0-15c04d1ed695-thumbnail-1000x1000-70.jpeg" alt="جهاز التأهيل الحركي المتكامل" />
+                  <img src="./assets/gym/1847e322-8b4a-4b26-9dc0-15c04d1ed695-thumbnail-1000x1000-70.jpeg" alt="جهاز التأهيل الحركي المتكامل" />
                 </div>
                 <div className="gym-eq-content">
                   <h5>جهاز التأهيل الحركي (Multi-Gym)</h5>
@@ -188,7 +188,7 @@ export default function Equipment() {
               {/* Card 4: Balance */}
               <div className="gym-eq-card">
                 <div className="gym-eq-img-wrapper">
-                  <img src="/assets/gym/images (4).jfif" alt="أدوات التوازن والتأهيل الحركي" />
+                  <img src="./assets/gym/images (4).jfif" alt="أدوات التوازن والتأهيل الحركي" />
                 </div>
                 <div className="gym-eq-content">
                   <h5>أدوات التوازن والتأهيل (Balance Tools)</h5>
@@ -202,7 +202,7 @@ export default function Equipment() {
           <div className={`tab-pane ${activeTab === 'lumbar_traction' ? 'active' : ''}`} id="lumbar_traction">
             <div className="eq-details">
               <div className="eq-image-box">
-                <img src="/assets/lumbar_traction.jpg" alt="جهاز شد الفقرات القطنية Lumbar Traction" className="eq-img" />
+                <img src="./assets/lumbar_traction.jpg" alt="جهاز شد الفقرات القطنية Lumbar Traction" className="eq-img" />
                 <span className="eq-badge">Lumbar Traction</span>
               </div>
               <div className="eq-info-box">
@@ -224,7 +224,7 @@ export default function Equipment() {
           <div className={`tab-pane ${activeTab === 'laser_therapy' ? 'active' : ''}`} id="laser_therapy">
             <div className="eq-details">
               <div className="eq-image-box">
-                <img src="/assets/laser_therapy.png" alt="جهاز الليزر العلاجي LightForce" className="eq-img" />
+                <img src="./assets/laser_therapy.png" alt="جهاز الليزر العلاجي LightForce" className="eq-img" />
                 <span className="eq-badge">LightForce Laser</span>
               </div>
               <div className="eq-info-box">
@@ -246,7 +246,7 @@ export default function Equipment() {
           <div className={`tab-pane ${activeTab === 'dynatron_432' ? 'active' : ''}`} id="dynatron_432">
             <div className="eq-details">
               <div className="eq-image-box">
-                <img src="/assets/dynatron_432.png" alt="جهاز العلاج الكهربائي Dynatron 432" className="eq-img" />
+                <img src="./assets/dynatron_432.png" alt="جهاز العلاج الكهربائي Dynatron 432" className="eq-img" />
                 <span className="eq-badge">Dynatron 432</span>
               </div>
               <div className="eq-info-box">

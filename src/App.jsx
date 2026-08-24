@@ -20,8 +20,8 @@ export default function App() {
     const elementsToObserve = [
       document.getElementById('hero'),
       document.getElementById('about'),
-      document.getElementById('staff'),
       document.getElementById('services'),
+      document.getElementById('privacy-comfort'),
       document.getElementById('equipment'),
       document.getElementById('partners'),
       document.getElementById('contact'),
@@ -60,8 +60,8 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        <MedicalStaff />
         <Services />
+        <MedicalStaff />
         <Equipment />
         <Partners />
         <Stats />
